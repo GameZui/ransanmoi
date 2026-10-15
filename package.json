@@ -1,0 +1,26 @@
+{
+  "name": "snake-rush-arena",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Snake Rush Arena - Neon multiplayer snake arcade game (Phaser 3 + TypeScript + Vite)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "server:dev": "tsx watch server/index.ts",
+    "server:start": "tsx server/index.ts"
+  },
+  "dependencies": {
+    "phaser": "^3.87.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "colyseus": "^0.16.2",
+    "express": "^4.19.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "ws": "^8.18.0"
+  }
+}
